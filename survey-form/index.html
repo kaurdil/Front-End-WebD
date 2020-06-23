@@ -1,0 +1,60 @@
+<html>
+  <head><link rel="stylesheet" href="style.css"></head>
+  <body class="bg">
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><I>Thank you for filling the survey form</I></p>
+   <div class="form">
+    <form id="survey-form">
+      <label for="name" id="name-label"><b>Name</b></label>
+ <input type="text" placeholder="Enter your Name" name="name" id="name" required>
+      <br>
+   <label for="email" id="email-label"><b>Email</b></label>
+    <input type="text" placeholder="Enter your Email" name="email" id="email" required>
+      <br>
+       <label for="Age" id="number-label"><b>Age(optional)</b></label>
+    <input type="text" placeholder=" Age" name="Age" id="number" min="18" max="30" required>
+      <label for="options" id="Q1"><b>which option best describes your current role?</label>
+        <br>
+  <select id="dropdown" name="cars">
+    <option value="default" selected>select current role</option>
+    <option value="volvo">Student</option>
+    <option value="saab">Full Time Job</option>
+    <option value="fiat">Full Time Learner</option>
+    <option value="audi">Prefer Not To say</option>
+  </select>
+        <br>      
+<p id="Ques">Would you recommend this platform to a friend?</p>
+ <input type="radio" id="def" name="choice" value="male">
+        
+  <label for="def">Definitely</label>
+    <br>    
+  <input type="radio" id="May" name="choice" value="female">
+        
+  <label for="May">May be</label>
+        
+        <br>
+  <input type="radio" id="other" name="choice" value="Not sure">
+        
+        
+  <label for="Not sure">Not Sure</label>
+        
+        <br>
+        <p>What would you like to see improved?</p>
+        <input type="checkbox" id="course1" name="course1" value="Front End">
+  <label for="course1">Front End Development</label><br>
+  <input type="checkbox" id="course2" name="course2" value="Back">
+  <label for="course2">Back End Development</label><br>
+  <input type="checkbox" id="course3" name="course3" value="other">
+  <label for="course3"> other courses</label><p><b>Any Suggestions or comments?</p>
+<textarea name="message" rows="10" cols="10" id="textar" placeholder="Any comments or suggestions here...">
+</textarea>
+<button type="button" onclick="alert('Hello World!')" id="submit"><b>Submit</button>
+      
+    </form>
+    </div>    
+    
+   
+   
+  </body>
+  
+</html>
