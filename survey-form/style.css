@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://th.bing.com/th/id/OIP.hfbSeP7NqWi_cqaWU-oMlAHaEK?w=333&h=187&c=7&o=5&dpr=1.65&pid=1.7");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#title{
+  text-align:center;
+}
+#description{
+  text-align:center;
+}
+
+#survey-form
+{  margin-left:auto;
+   margin-right:auto;
+   width:100%;
+}
+.form{
+  background-color:grey;
+  margin-left:280px;
+  margin-right:280px;
+  padding:50px;
+  opacity:0.75;
+}
+#name,#email,#number,#textar,#submit{
+  width: 100%;
+  margin:10px;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+#name-label,#email-label,#number-label,#Q1{
+  margin:10px;
+}
+#dropdown{
+  padding:10px ;
+  margin:10px;
+  width:100%;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size:15px;
+}
+#Ques{
+  margin:10px;
+}
+
+#def,#May,#other,#course1,#course2,#course3{
+  margin:10px;
+  font-size:15px;
+}
+#submit{
+  background-color:green;
+  color:white;
+}
